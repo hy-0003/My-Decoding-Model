@@ -43,5 +43,5 @@ Group codes are widely used in communication systems due to their error-correcti
 ## 🚀 How to Use
 ### Installation
 ```bash
-git clone https://github.com/your_username/group-code-decoding.git
+git clone https://github.com/hy-0003/My-Decoding-Model.git
 See Appendix for Conda environment details
