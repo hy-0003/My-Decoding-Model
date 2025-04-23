@@ -7,10 +7,15 @@ For more detailed information and the specific work I have done, please refer to
 
 ---
 
+# ✨🎯🎯🎯✨I need help
+Currently, it can handle the binary decoding from a 15 - dimensional space to a 25 - dimensional one. However, when the dimension is increased to 30, the model performance deteriorates significantly. There are two main issues contributing to this problem. Firstly, generating 2**30 samples once is extremely difficult. Secondly, the current network fails to approximate the encoding matrix G.
+
+---
+
 ## 📖 Research Background
 Group codes are widely used in communication systems due to their error-correcting capabilities, but traditional decoding methods are computationally intensive. This project proposes a novel approach:
 - **Key Insight**: The encoding function of group codes resembles the forward propagation of neural networks.
-- **Objective**: Train a neural network to approximate the encoding matrix \( G \), enabling efficient decoding even with noisy inputs.
+- **Objective**: Train a neural network to approximate the encoding matrix G , enabling efficient decoding even with noisy inputs.
 
 ---
 
